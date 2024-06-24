@@ -1,0 +1,10 @@
+name: Test Unit Tests
+on:
+  push:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        run: sleep 60
